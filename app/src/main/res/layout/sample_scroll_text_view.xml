@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#00ffffff">
+
+    <net.codingpark.testrolltext.ScrollTextView android:background="#00cccccc"
+        android:layout_width="300dp" android:layout_height="300dp" android:paddingLeft="20dp"
+        android:paddingBottom="40dp" app:exampleDimension="24sp" app:exampleColor="#33b5e5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large TextRLarge TextRLarge TextRLarge TextRLarge TextRLarge TextRLarge TextRLarge TextR"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top" />
+
+</FrameLayout>
